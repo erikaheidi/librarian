@@ -1,4 +1,13 @@
 <footer class="blog-footer">
+    <h3><a href="/_p/about">About</a></h3>
+    <p>{{ site_about() }}</p>
+
+    <section class="tags">
+        | {% for tag_name, posts in tag_list() %}
+            <a class="p-2 text-muted" href="/tag/{{ tag_name }}">{{ tag_name }}</a> |
+        {% endfor %}
+    </section>
+
     <p>Built with <a href="https://github.com/minicli/librarian" target="_blank">Librarian</a>.</p>
     <p>
         <a href="#">Back to top</a>

@@ -5,4 +5,16 @@
     {% for post in content_list %}
         {% include '_partials/post.html.twig' with { 'content': post } %}
     {% endfor %}
+
+    <section class="navigation">
+        <ul>
+        {% for i in 1..total_pages %}
+            {% if current_page == i %}
+                <li class="current">{{ i }}</li>
+            {% else %}
+                <li><a href="/?page={{ i }}">{{ i }}</a></li>
+            {% endif %}
+        {% endfor %}
+        </ul>
+    </section>
 {% endblock %}

@@ -21,18 +21,13 @@ class ContentController extends WebController
     {
         /** @var TwigServiceProvider $twig */
         $twig = $this->getApp()->twig;
-
-        /** @var ContentServiceProvider $content_provider */
-        $content_provider = $this->getApp()->content;
-
         $request = $this->getRequest();
 
         if (!$request->getSlug()) {
-            $content_list = $content_provider->fetchFrom($request->getRoute());
+            $content_list = $this->getContentList();
             $output = $twig->render('content/listing.html.twig', ['content_list' => $content_list]);
         } else {
-
-            $content = $content_provider->fetch($request);
+            $content = $this->getContent();
 
             if ($content === null) {
                 Response::redirect('/notfound');
@@ -43,5 +38,21 @@ class ContentController extends WebController
 
         $response = new Response($output);
         $response->output();
+    }
+
+    public function getContentList()
+    {
+        /** @var ContentServiceProvider $content_provider */
+        $content_provider = $this->getApp()->content;
+
+        return $content_provider->fetchFrom($this->getRequest()->getRoute());
+    }
+
+    public function getContent()
+    {
+        /** @var ContentServiceProvider $content_provider */
+        $content_provider = $this->getApp()->content;
+
+        return $content_provider->fetch($this->getRequest());
     }
 }

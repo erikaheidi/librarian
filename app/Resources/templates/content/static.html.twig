@@ -11,7 +11,7 @@
     <meta name="twitter:description" content="{{ content.description }}">
     <meta name="twitter:creator" content="@erikaheidi">
     <!-- Twitter summary card with large image must be at least 280x150px -->
-    <meta name="twitter:image:src" content="{{ content.cover_image }}">
+    <meta name="twitter:image:src" content="{% if content.cover_image %}{{ content.cover_image }}{% elseif content.frontMatterHas('thumb_image') %}{{ content.frontMatterGet('thumb_image') }}{% endif %}">
 
 {% endblock %}
 

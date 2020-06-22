@@ -1,5 +1,20 @@
 {% extends 'base.html.twig' %}
 
+{% block title %}Live Coding and DevOps with Erika Heidi{% endblock %}
+{% block description %}In this page, you can watch my live streams via Twitch.{% endblock %}
+{% block includes %}
+    {{ parent() }}
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@erikaheidi">
+    <meta name="twitter:title" content="Live Coding with @erikaheidi">
+    <meta name="twitter:description" content="In this page, you can watch my live streams via Twitch.">
+    <meta name="twitter:creator" content="@erikaheidi">
+    <!-- Twitter summary card with large image must be at least 280x150px -->
+    <meta name="twitter:image:src" content="/images/offline_channel.jpg">
+
+{% endblock %}
+
 {% block content %}
     <h2>Live Streaming</h2>
 <iframe

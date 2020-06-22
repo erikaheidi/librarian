@@ -1,5 +1,19 @@
 {% extends 'base.html.twig' %}
 
+{% block title %}Erika Heidi: Technical Writer, Dev+Ops{% endblock %}
+{% block description %}Posts about software engineering, devOps, 3D printing, and live coding{% endblock %}
+{% block includes %}
+    {{ parent() }}
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@erikaheidi">
+    <meta name="twitter:title" content="Erikaheidi's Blog">
+    <meta name="twitter:description" content="Posts about software engineering, devOps, 3D printing, and live coding.">
+    <meta name="twitter:creator" content="@erikaheidi">
+    <!-- Twitter summary card with large image must be at least 280x150px -->
+    <meta name="twitter:image:src" content="/images/offline_channel.jpg">
+
+{% endblock %}
 
 {% block content %}
     {% for post in content_list %}

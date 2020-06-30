@@ -1,7 +1,7 @@
 ---
 title: Aprendendo Laravel na Prática - Live Series
 description: Nesta série, vamos aprender Laravel na prática, desenvolvendo um aplicativo do zero.
-cover_image: /images/laravel_na_pratica.png
+cover_image: https://eheidi.dev/images/laravel_na_pratica.png
 ---
 
 [Laravel](https://laravel.com) é um framework PHP e também um completo ecosistema composto por vários serviços tais como [Forge](https://forge.laravel.com/), [Vapor](https://vapor.laravel.com/), [Cashier](https://laravel.com/docs/7.x/billing), dentre outros.

@@ -75,5 +75,16 @@ Materiais de Apoio:
 - [Código episódio 1](https://github.com/erikaheidi/sponsorshub/tree/episodio-01)
 
 ### Episódio 2: Trabalhando com Templates Blade e Criando Layout Básico com Bulma CSS
+_Quarta-feira, 08 de Julho 10am (GMT-3, Brasília)._
 
-Ao vivo: Quarta-feira, 08 de Julho a partir das 10am (GMT-3, Brasília) na [twitch.tv/erikaheidi](twitch.tv/erikaheidi)
+{% youtube m8gvyHNGCvs %}
+
+Materiais de Apoio:
+
+- [Bulma CSS](https://bulma.io)
+- [Código episódio 2](https://github.com/erikaheidi/sponsorshub/tree/episodio-02)
+
+
+### Episódio 3: Autenticação com OAuth via Github
+
+Ao vivo: Quarta-feira, 15 de Julho a partir das 10am (GMT-3, Brasília) na [twitch.tv/erikaheidi](twitch.tv/erikaheidi)

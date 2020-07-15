@@ -65,7 +65,7 @@ _A ordem dos tópicos pode mudar, mas essa lista dá uma idéia geral do que ire
 ## Episódios
 
 ### Episódio 1: Bootstrap da Aplicação e Criação de Ambiente de Desenvolvimento com Docker Compose
-_Quarta-feira, 01 de Julho 10am (GMT-3, Brasília)._
+_Quarta-feira, 01 de Julho_
 
 {% youtube NcUT0gNRz_o %}
 
@@ -75,7 +75,7 @@ Materiais de Apoio:
 - [Código episódio 1](https://github.com/erikaheidi/sponsorshub/tree/episodio-01)
 
 ### Episódio 2: Trabalhando com Templates Blade e Criando Layout Básico com Bulma CSS
-_Quarta-feira, 08 de Julho 10am (GMT-3, Brasília)._
+_Quarta-feira, 08 de Julho_
 
 {% youtube m8gvyHNGCvs %}
 
@@ -87,4 +87,16 @@ Materiais de Apoio:
 
 ### Episódio 3: Autenticação com OAuth via Github
 
-Ao vivo: Quarta-feira, 15 de Julho a partir das 10am (GMT-3, Brasília) na [twitch.tv/erikaheidi](twitch.tv/erikaheidi)
+_Quarta-feira, 15 de Julho_
+
+{% youtube PdAv1Mby8S8 %}
+
+Materiais de Apoio:
+
+- [GitHub API - Documentation](https://docs.github.com/en/developers/apps/authorizing-oauth-apps)
+- [Creating Controllers in Laravel](https://laravel.com/docs/7.x/controllers)
+- [Código Episódio 3](https://github.com/erikaheidi/sponsorshub/tree/episodio-03)
+
+### Episódio 4: Finalizando Workflow OAuth e Salvando Usuário no BD
+
+Ao vivo: Quarta-feira, 22 de Julho a partir das 10am (GMT-3, Brasília) na [twitch.tv/erikaheidi](twitch.tv/erikaheidi)

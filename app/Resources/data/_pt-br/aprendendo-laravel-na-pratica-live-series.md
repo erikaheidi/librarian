@@ -85,7 +85,7 @@ Materiais de Apoio:
 - [Código episódio 2](https://github.com/erikaheidi/sponsorshub/tree/episodio-02)
 
 
-### Episódio 3: Autenticação com OAuth via Github
+### Episódio 3: Implementando Workflow OAuth via GitHub
 
 _Quarta-feira, 15 de Julho_
 
@@ -97,6 +97,20 @@ Materiais de Apoio:
 - [Creating Controllers in Laravel](https://laravel.com/docs/7.x/controllers)
 - [Código Episódio 3](https://github.com/erikaheidi/sponsorshub/tree/episodio-03)
 
-### Episódio 4: Finalizando Workflow OAuth e Salvando Usuário no BD
+### Episódio 4: Finalizando Workflow OAuth GitHub e Salvando Usuário no BD
 
-Ao vivo: Quarta-feira, 22 de Julho a partir das 10am (GMT-3, Brasília) na [twitch.tv/erikaheidi](twitch.tv/erikaheidi)
+_Quarta-feira, 22 de Julho_
+
+{% youtube dYovRGdGLdg %}
+
+Materiais de Apoio:
+
+- [Github API: Getting the Authenticated User](https://docs.github.com/en/rest/reference/users#get-the-authenticated-user)
+- [Authenticating a User Instance in Laravel](https://laravel.com/docs/7.x/authentication#other-authentication-methods)
+- [Código Episódio 4](https://github.com/erikaheidi/sponsorshub/tree/episodio-04)
+
+
+### Episódio 5: Implementando Workflow OAuth via Twitch
+
+
+Ao vivo: Quarta-feira, 29 de Julho a partir das 10am (GMT-3, Brasília) na [twitch.tv/erikaheidi](twitch.tv/erikaheidi)

@@ -110,7 +110,19 @@ Materiais de Apoio:
 - [Código Episódio 4](https://github.com/erikaheidi/sponsorshub/tree/episodio-04)
 
 
-### Episódio 5: Implementando Workflow OAuth via Twitch
+### Episódio 5: Ajustando Login e Logout de Usuários Baseado nas Credenciais do Github
 
+_Quarta-feira, 29 de Julho_
+
+{% youtube JZJdPXF-jQE %}
+
+Materiais de Apoio:
+
+- [Logging Out a User in Laravel](https://laravel.com/docs/7.x/authentication#logging-out)
+- [Creating and obtaining DB records with Eloquent: First or New](https://laravel.com/docs/7.x/eloquent#other-creation-methods)
+- [Authenticating a User Instance in Laravel](https://laravel.com/docs/7.x/authentication#other-authentication-methods)
+- [Código Episódio 5](https://github.com/erikaheidi/sponsorshub/tree/episodio-05)
+
+### Episódio 6: Implementando Workflow OAuth via Twitch
 
 Ao vivo: Quarta-feira, 29 de Julho a partir das 10am (GMT-3, Brasília) na [twitch.tv/erikaheidi](twitch.tv/erikaheidi)

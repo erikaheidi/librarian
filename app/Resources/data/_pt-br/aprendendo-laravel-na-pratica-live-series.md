@@ -125,4 +125,16 @@ Materiais de Apoio:
 
 ### Episódio 6: Implementando Workflow OAuth via Twitch
 
-Ao vivo: Quarta-feira, 29 de Julho a partir das 10am (GMT-3, Brasília) na [twitch.tv/erikaheidi](twitch.tv/erikaheidi)
+_Quarta-feira, 5 de Agosto_
+
+{% youtube cLDo6YJF0rU %}
+
+Materiais de Apoio:
+
+- [Twitch API: Authentication](https://dev.twitch.tv/docs/authentication)
+- [Twitch API: OAuth Authorization Code Flow](https://dev.twitch.tv/docs/authentication/getting-tokens-oauth#oauth-authorization-code-flow)
+- [Código Episódio 6](https://github.com/erikaheidi/sponsorshub/tree/episodio-06)
+
+### Episódio 7: Finalizando Workflow OAuth via Twitch, Salvando Credenciais no BD
+
+Ao vivo: Quarta-feira, 12 de Agosto a partir das 10am (GMT-3, Brasília) na [twitch.tv/erikaheidi](twitch.tv/erikaheidi)
